@@ -1,0 +1,17 @@
+:root {
+  --c-1: #290f3d;
+  --c-2: #fff;
+  --f-1: 0.8em;
+  --f-2: 1.25em;
+  --f-3: 1.5rem;
+  --f-4: 3em;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-family: "Lato", sans-serif;
+  color: var(--c-2);
+  margin: 0;
+}
