@@ -1,0 +1,79 @@
+@import url("../css/common.css");
+
+#contact {
+  height: 95vh;
+}
+
+.contact {
+  margin: 0 auto;
+  background-color: var(--c-5);
+  width: 53%;
+}
+
+.contact__header {
+  text-transform: uppercase;
+}
+
+.contact__container {
+  display: flex;
+  padding: 10% 15%;
+}
+
+.contact__form {
+  margin: 0 auto;
+  padding: 40px 14%;
+}
+
+input {
+  color: var(--c-2);
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: solid 1px white;
+  width: 94%;
+  height: 32px;
+  color: var(--c-4);
+}
+
+.contact__label {
+  color: var(--c-2);
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-size: var(--f-5);
+}
+
+.contact__submit {
+  padding: 0.8rem 1.5rem;
+  background-color: var(--c-2);
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1.2px;
+  font-size: var(--f-5);
+  font-weight: 600;
+}
+
+@media (max-width: 1024px) {
+  .contact__container {
+    flex-direction: column;
+  }
+
+  .contact {
+    width: 100%;
+    margin-top: 6rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .contact__container {
+    padding: 15% 5%;
+  }
+
+  #contact {
+    height: auto;
+  }
+
+  textarea {
+    width: 100%;
+  }
+}
