@@ -1,10 +1,16 @@
 :root {
   --c-1: #290f3d;
   --c-2: #fff;
+  --c-3: #145959;
+  --c-4: #000000;
+  --c-5: rgb(122, 81, 122);
   --f-1: 0.8em;
   --f-2: 1.25em;
   --f-3: 1.5rem;
   --f-4: 3em;
+  --f-5: 0.7em;
+  --f-6: 1.1em;
+  --f-7: 1em;
 }
 
 html,
@@ -12,6 +18,10 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   font-family: "Lato", sans-serif;
-  color: var(--c-2);
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-2);
 }
