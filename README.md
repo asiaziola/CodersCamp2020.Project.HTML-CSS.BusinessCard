@@ -14,4 +14,4 @@ _Neither frameworks, nor programming languages has been used._
 Following project is a simple business website with three subpages and minimalistic responsive design.
 
 **URL**
-[Business card](https://asiaziola.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/)
+[Business card](https://asiaziola.github.io/cc.business_card/)
